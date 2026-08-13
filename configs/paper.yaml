@@ -1,0 +1,50 @@
+session_gap_minutes: 30
+split_train: 0.70
+split_val: 0.15
+split_test: 0.15
+top_actions: 25
+top_services: 12
+max_train_sessions: 120000
+max_val_sessions: 30000
+max_test_reference: 15000
+max_ocsvm_train: 12000
+batch_size: 1024
+epochs: 18
+patience: 4
+learning_rate: 0.0008
+weight_decay: 0.00001
+latent_dim: 32
+hidden_dim: 96
+mask_probability: 0.10
+gaussian_noise: 0.03
+agreement_weight: 0.10
+variance_weight: 0.02
+seeds: [42, 52, 62, 72, 82]
+evt_tail_quantile: 0.98
+operational_alert_rate: 0.005
+candidate_anomalies: 100
+figure_dpi: 600
+controlled_corruptions:
+  burst:
+    log_n_events_shift: 1.35
+    events_per_min_factor: 4.0
+    gap_factor: 0.20
+    burst_ratio_floor: 0.85
+  context_hijack:
+    novelty_floor: 0.90
+    unique_context_floor: 0.75
+    rarity_shift: 2.5
+  api_sequence:
+    action_switch_floor: 0.90
+    transition_mean_shift: 3.5
+    transition_max_shift: 4.5
+  failure_storm:
+    error_rate_floor: 0.85
+    error_rarity_shift: 4.0
+    events_per_min_factor: 1.5
+  region_service_switch:
+    region_switch_floor: 0.85
+    service_switch_floor: 0.85
+    unique_region_floor: 0.75
+    unique_service_floor: 0.75
+    novelty_floor: 0.85

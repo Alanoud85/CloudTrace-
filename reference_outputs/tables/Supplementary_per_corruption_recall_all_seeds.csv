@@ -1,0 +1,251 @@
+Corruption,Recall,N,Model,Seed
+api_sequence,0.007710100231303007,1297,Frequency/Rarity,42
+burst,0.006939090208172706,1297,Frequency/Rarity,42
+context_hijack,0.005397070161912105,1297,Frequency/Rarity,42
+failure_storm,0.016191210485736313,1297,Frequency/Rarity,42
+region_service_switch,0.040863531225905934,1297,Frequency/Rarity,42
+api_sequence,0.016191210485736313,1297,Isolation Forest,42
+burst,0.06476484194294525,1297,Isolation Forest,42
+context_hijack,0.02081727062451812,1297,Isolation Forest,42
+failure_storm,0.08866615265998458,1297,Isolation Forest,42
+region_service_switch,0.09714726291441789,1297,Isolation Forest,42
+api_sequence,0.12413261372397841,1297,PCA Reconstruction,42
+burst,0.15651503469545103,1297,PCA Reconstruction,42
+context_hijack,0.05782575173477255,1297,PCA Reconstruction,42
+failure_storm,0.14649190439475712,1297,PCA Reconstruction,42
+region_service_switch,0.13646877409406322,1297,PCA Reconstruction,42
+api_sequence,0.007710100231303007,1297,One-Class SVM,42
+burst,0.2112567463377024,1297,One-Class SVM,42
+context_hijack,0.006939090208172706,1297,One-Class SVM,42
+failure_storm,0.30146491904394757,1297,One-Class SVM,42
+region_service_switch,0.13261372397841173,1297,One-Class SVM,42
+api_sequence,0.03392444101773323,1297,Denoising Autoencoder,42
+burst,0.2243639167309175,1297,Denoising Autoencoder,42
+context_hijack,0.01156515034695451,1297,Denoising Autoencoder,42
+failure_storm,0.24672320740169623,1297,Denoising Autoencoder,42
+region_service_switch,0.09483423284502698,1297,Denoising Autoencoder,42
+api_sequence,0.010023130300693909,1297,CloudTrace-MVAD (Full),42
+burst,0.14726291441788744,1297,CloudTrace-MVAD (Full),42
+context_hijack,0.009252120277563608,1297,CloudTrace-MVAD (Full),42
+failure_storm,0.24826522744795682,1297,CloudTrace-MVAD (Full),42
+region_service_switch,0.08095605242868158,1297,CloudTrace-MVAD (Full),42
+api_sequence,1.0,1297,Ablation: Event only,42
+burst,0.323053199691596,1297,Ablation: Event only,42
+context_hijack,0.3138010794140324,1297,Ablation: Event only,42
+failure_storm,1.0,1297,Ablation: Event only,42
+region_service_switch,1.0,1297,Ablation: Event only,42
+api_sequence,0.01079414032382421,1297,Ablation: No event,42
+burst,0.14572089437162683,1297,Ablation: No event,42
+context_hijack,0.006939090208172706,1297,Ablation: No event,42
+failure_storm,0.12413261372397841,1297,Ablation: No event,42
+region_service_switch,0.05011565150346955,1297,Ablation: No event,42
+api_sequence,0.05397070161912105,1297,Ablation: No temporal,42
+burst,0.05011565150346955,1297,Ablation: No temporal,42
+context_hijack,0.006939090208172706,1297,Ablation: No temporal,42
+failure_storm,0.05782575173477255,1297,Ablation: No temporal,42
+region_service_switch,0.09252120277563608,1297,Ablation: No temporal,42
+api_sequence,0.010023130300693909,1297,Ablation: No relational,42
+burst,0.15805705474171164,1297,Ablation: No relational,42
+context_hijack,0.008481110254433308,1297,Ablation: No relational,42
+failure_storm,0.38164996144949886,1297,Ablation: No relational,42
+region_service_switch,0.07787201233616037,1297,Ablation: No relational,42
+api_sequence,0.01156515034695451,1297,Frequency/Rarity,52
+burst,0.006168080185042405,1297,Frequency/Rarity,52
+context_hijack,0.004626060138781804,1297,Frequency/Rarity,52
+failure_storm,0.01233616037008481,1297,Frequency/Rarity,52
+region_service_switch,0.03392444101773323,1297,Frequency/Rarity,52
+api_sequence,0.01927525057825752,1297,Isolation Forest,52
+burst,0.09175019275250579,1297,Isolation Forest,52
+context_hijack,0.026214340786430222,1297,Isolation Forest,52
+failure_storm,0.16268311488049345,1297,Isolation Forest,52
+region_service_switch,0.1056283731688512,1297,Isolation Forest,52
+api_sequence,0.12567463377023902,1297,PCA Reconstruction,52
+burst,0.16191210485736315,1297,PCA Reconstruction,52
+context_hijack,0.05397070161912105,1297,PCA Reconstruction,52
+failure_storm,0.15651503469545103,1297,PCA Reconstruction,52
+region_service_switch,0.13338473400154202,1297,PCA Reconstruction,52
+api_sequence,0.01156515034695451,1297,One-Class SVM,52
+burst,0.19583654587509639,1297,One-Class SVM,52
+context_hijack,0.006168080185042405,1297,One-Class SVM,52
+failure_storm,0.28373168851195063,1297,One-Class SVM,52
+region_service_switch,0.14263685427910563,1297,One-Class SVM,52
+api_sequence,0.018504240555127217,1297,Denoising Autoencoder,52
+burst,0.15111796453353893,1297,Denoising Autoencoder,52
+context_hijack,0.006168080185042405,1297,Denoising Autoencoder,52
+failure_storm,0.19737856592135697,1297,Denoising Autoencoder,52
+region_service_switch,0.5535851966075559,1297,Denoising Autoencoder,52
+api_sequence,0.013878180416345412,1297,CloudTrace-MVAD (Full),52
+burst,0.2336160370084811,1297,CloudTrace-MVAD (Full),52
+context_hijack,0.007710100231303007,1297,CloudTrace-MVAD (Full),52
+failure_storm,0.34232845026985353,1297,CloudTrace-MVAD (Full),52
+region_service_switch,0.07864302235929067,1297,CloudTrace-MVAD (Full),52
+api_sequence,1.0,1297,Ablation: Event only,52
+burst,0.3284502698535081,1297,Ablation: Event only,52
+context_hijack,0.3338473400154202,1297,Ablation: Event only,52
+failure_storm,1.0,1297,Ablation: Event only,52
+region_service_switch,1.0,1297,Ablation: Event only,52
+api_sequence,0.018504240555127217,1297,Ablation: No event,52
+burst,0.17733230531996916,1297,Ablation: No event,52
+context_hijack,0.005397070161912105,1297,Ablation: No event,52
+failure_storm,0.16962220508866616,1297,Ablation: No event,52
+region_service_switch,0.025443330763299923,1297,Ablation: No event,52
+api_sequence,0.07170393215111796,1297,Ablation: No temporal,52
+burst,0.07401696222050887,1297,Ablation: No temporal,52
+context_hijack,0.01233616037008481,1297,Ablation: No temporal,52
+failure_storm,0.08249807247494217,1297,Ablation: No temporal,52
+region_service_switch,0.1125674633770239,1297,Ablation: No temporal,52
+api_sequence,0.014649190439475714,1297,Ablation: No relational,52
+burst,0.16037008481110254,1297,Ablation: No relational,52
+context_hijack,0.006168080185042405,1297,Ablation: No relational,52
+failure_storm,0.2405551272166538,1297,Ablation: No relational,52
+region_service_switch,0.07787201233616037,1297,Ablation: No relational,52
+api_sequence,0.006939090208172706,1297,Frequency/Rarity,62
+burst,0.007710100231303007,1297,Frequency/Rarity,62
+context_hijack,0.005397070161912105,1297,Frequency/Rarity,62
+failure_storm,0.013107170393215111,1297,Frequency/Rarity,62
+region_service_switch,0.04626060138781804,1297,Frequency/Rarity,62
+api_sequence,0.01927525057825752,1297,Isolation Forest,62
+burst,0.1040863531225906,1297,Isolation Forest,62
+context_hijack,0.025443330763299923,1297,Isolation Forest,62
+failure_storm,0.12104857363145721,1297,Isolation Forest,62
+region_service_switch,0.10331534309946029,1297,Isolation Forest,62
+api_sequence,0.12104857363145721,1297,PCA Reconstruction,62
+burst,0.15343099460292983,1297,PCA Reconstruction,62
+context_hijack,0.06245181187355436,1297,PCA Reconstruction,62
+failure_storm,0.15497301464919044,1297,PCA Reconstruction,62
+region_service_switch,0.14109483423284502,1297,PCA Reconstruction,62
+api_sequence,0.010023130300693909,1297,One-Class SVM,62
+burst,0.18504240555127216,1297,One-Class SVM,62
+context_hijack,0.01233616037008481,1297,One-Class SVM,62
+failure_storm,0.18735543562066306,1297,One-Class SVM,62
+region_service_switch,0.13492675404780263,1297,One-Class SVM,62
+api_sequence,0.026985350809560524,1297,Denoising Autoencoder,62
+burst,0.15805705474171164,1297,Denoising Autoencoder,62
+context_hijack,0.013878180416345412,1297,Denoising Autoencoder,62
+failure_storm,0.12336160370084812,1297,Denoising Autoencoder,62
+region_service_switch,0.12104857363145721,1297,Denoising Autoencoder,62
+api_sequence,0.01233616037008481,1297,CloudTrace-MVAD (Full),62
+burst,0.19892058596761758,1297,CloudTrace-MVAD (Full),62
+context_hijack,0.01156515034695451,1297,CloudTrace-MVAD (Full),62
+failure_storm,0.2336160370084811,1297,CloudTrace-MVAD (Full),62
+region_service_switch,0.08481110254433308,1297,CloudTrace-MVAD (Full),62
+api_sequence,1.0,1297,Ablation: Event only,62
+burst,0.39244410177332306,1297,Ablation: Event only,62
+context_hijack,0.4225134926754048,1297,Ablation: Event only,62
+failure_storm,1.0,1297,Ablation: Event only,62
+region_service_switch,1.0,1297,Ablation: Event only,62
+api_sequence,0.014649190439475714,1297,Ablation: No event,62
+burst,0.14957594448727835,1297,Ablation: No event,62
+context_hijack,0.01233616037008481,1297,Ablation: No event,62
+failure_storm,0.13878180416345412,1297,Ablation: No event,62
+region_service_switch,0.09097918272937548,1297,Ablation: No event,62
+api_sequence,0.07401696222050887,1297,Ablation: No temporal,62
+burst,0.07170393215111796,1297,Ablation: No temporal,62
+context_hijack,0.008481110254433308,1297,Ablation: No temporal,62
+failure_storm,0.08249807247494217,1297,Ablation: No temporal,62
+region_service_switch,0.09637625289128758,1297,Ablation: No temporal,62
+api_sequence,0.010023130300693909,1297,Ablation: No relational,62
+burst,0.1272166538164996,1297,Ablation: No relational,62
+context_hijack,0.013878180416345412,1297,Ablation: No relational,62
+failure_storm,0.15882806476484193,1297,Ablation: No relational,62
+region_service_switch,0.08866615265998458,1297,Ablation: No relational,62
+api_sequence,0.010023130300693909,1297,Frequency/Rarity,72
+burst,0.01079414032382421,1297,Frequency/Rarity,72
+context_hijack,0.0030840400925212026,1297,Frequency/Rarity,72
+failure_storm,0.01156515034695451,1297,Frequency/Rarity,72
+region_service_switch,0.03932151117964534,1297,Frequency/Rarity,72
+api_sequence,0.018504240555127217,1297,Isolation Forest,72
+burst,0.10331534309946029,1297,Isolation Forest,72
+context_hijack,0.03084040092521203,1297,Isolation Forest,72
+failure_storm,0.13261372397841173,1297,Isolation Forest,72
+region_service_switch,0.08249807247494217,1297,Isolation Forest,72
+api_sequence,0.1164225134926754,1297,PCA Reconstruction,72
+burst,0.14340786430223593,1297,PCA Reconstruction,72
+context_hijack,0.06939090208172706,1297,PCA Reconstruction,72
+failure_storm,0.15034695451040864,1297,PCA Reconstruction,72
+region_service_switch,0.13107170393215112,1297,PCA Reconstruction,72
+api_sequence,0.013878180416345412,1297,One-Class SVM,72
+burst,0.20123361603700848,1297,One-Class SVM,72
+context_hijack,0.016962220508866616,1297,One-Class SVM,72
+failure_storm,0.19429452582883577,1297,One-Class SVM,72
+region_service_switch,0.14417887432536622,1297,One-Class SVM,72
+api_sequence,0.059367771781033155,1297,Denoising Autoencoder,72
+burst,0.20508866615265997,1297,Denoising Autoencoder,72
+context_hijack,0.01156515034695451,1297,Denoising Autoencoder,72
+failure_storm,0.220508866615266,1297,Denoising Autoencoder,72
+region_service_switch,0.259059367771781,1297,Denoising Autoencoder,72
+api_sequence,0.016962220508866616,1297,CloudTrace-MVAD (Full),72
+burst,0.15497301464919044,1297,CloudTrace-MVAD (Full),72
+context_hijack,0.013878180416345412,1297,CloudTrace-MVAD (Full),72
+failure_storm,0.20894371626831149,1297,CloudTrace-MVAD (Full),72
+region_service_switch,0.07478797224363917,1297,CloudTrace-MVAD (Full),72
+api_sequence,1.0,1297,Ablation: Event only,72
+burst,0.3662297609868928,1297,Ablation: Event only,72
+context_hijack,0.4016962220508867,1297,Ablation: Event only,72
+failure_storm,1.0,1297,Ablation: Event only,72
+region_service_switch,1.0,1297,Ablation: Event only,72
+api_sequence,0.01927525057825752,1297,Ablation: No event,72
+burst,0.18735543562066306,1297,Ablation: No event,72
+context_hijack,0.01079414032382421,1297,Ablation: No event,72
+failure_storm,0.14649190439475712,1297,Ablation: No event,72
+region_service_switch,0.07864302235929067,1297,Ablation: No event,72
+api_sequence,0.07170393215111796,1297,Ablation: No temporal,72
+burst,0.07093292212798766,1297,Ablation: No temporal,72
+context_hijack,0.01156515034695451,1297,Ablation: No temporal,72
+failure_storm,0.07016191210485737,1297,Ablation: No temporal,72
+region_service_switch,0.09406322282189669,1297,Ablation: No temporal,72
+api_sequence,0.013107170393215111,1297,Ablation: No relational,72
+burst,0.14186584425597532,1297,Ablation: No relational,72
+context_hijack,0.01156515034695451,1297,Ablation: No relational,72
+failure_storm,0.12798766383962992,1297,Ablation: No relational,72
+region_service_switch,0.07555898226676946,1297,Ablation: No relational,72
+api_sequence,0.015420200462606014,1297,Frequency/Rarity,82
+burst,0.006168080185042405,1297,Frequency/Rarity,82
+context_hijack,0.005397070161912105,1297,Frequency/Rarity,82
+failure_storm,0.006939090208172706,1297,Frequency/Rarity,82
+region_service_switch,0.04548959136468774,1297,Frequency/Rarity,82
+api_sequence,0.013878180416345412,1297,Isolation Forest,82
+burst,0.09714726291441789,1297,Isolation Forest,82
+context_hijack,0.02158828064764842,1297,Isolation Forest,82
+failure_storm,0.18735543562066306,1297,Isolation Forest,82
+region_service_switch,0.1156515034695451,1297,Isolation Forest,82
+api_sequence,0.12336160370084812,1297,PCA Reconstruction,82
+burst,0.15805705474171164,1297,PCA Reconstruction,82
+context_hijack,0.05628373168851195,1297,PCA Reconstruction,82
+failure_storm,0.14494988434849654,1297,PCA Reconstruction,82
+region_service_switch,0.15343099460292983,1297,PCA Reconstruction,82
+api_sequence,0.009252120277563608,1297,One-Class SVM,82
+burst,0.17733230531996916,1297,One-Class SVM,82
+context_hijack,0.009252120277563608,1297,One-Class SVM,82
+failure_storm,0.16885119506553586,1297,One-Class SVM,82
+region_service_switch,0.14572089437162683,1297,One-Class SVM,82
+api_sequence,0.015420200462606014,1297,Denoising Autoencoder,82
+burst,0.15034695451040864,1297,Denoising Autoencoder,82
+context_hijack,0.01079414032382421,1297,Denoising Autoencoder,82
+failure_storm,0.2212798766383963,1297,Denoising Autoencoder,82
+region_service_switch,0.6838858905165767,1297,Denoising Autoencoder,82
+api_sequence,0.01156515034695451,1297,CloudTrace-MVAD (Full),82
+burst,0.15574402467232074,1297,CloudTrace-MVAD (Full),82
+context_hijack,0.013107170393215111,1297,CloudTrace-MVAD (Full),82
+failure_storm,0.29683885890516576,1297,CloudTrace-MVAD (Full),82
+region_service_switch,0.08172706245181187,1297,CloudTrace-MVAD (Full),82
+api_sequence,1.0,1297,Ablation: Event only,82
+burst,0.9213569776407093,1297,Ablation: Event only,82
+context_hijack,0.9151888974556669,1297,Ablation: Event only,82
+failure_storm,1.0,1297,Ablation: Event only,82
+region_service_switch,1.0,1297,Ablation: Event only,82
+api_sequence,0.01233616037008481,1297,Ablation: No event,82
+burst,0.2181958365458751,1297,Ablation: No event,82
+context_hijack,0.01156515034695451,1297,Ablation: No event,82
+failure_storm,0.16730917501927525,1297,Ablation: No event,82
+region_service_switch,0.08249807247494217,1297,Ablation: No event,82
+api_sequence,0.07864302235929067,1297,Ablation: No temporal,82
+burst,0.07710100231303008,1297,Ablation: No temporal,82
+context_hijack,0.01079414032382421,1297,Ablation: No temporal,82
+failure_storm,0.06630686198920586,1297,Ablation: No temporal,82
+region_service_switch,0.1125674633770239,1297,Ablation: No temporal,82
+api_sequence,0.01079414032382421,1297,Ablation: No relational,82
+burst,0.13723978411719354,1297,Ablation: No relational,82
+context_hijack,0.010023130300693909,1297,Ablation: No relational,82
+failure_storm,0.36237471087124135,1297,Ablation: No relational,82
+region_service_switch,0.08635312259059368,1297,Ablation: No relational,82

@@ -1,0 +1,4 @@
+split,sessions,events,identities,median_events,p95_events,median_duration_sec
+test,6488,130682,317,2.0,34.0,1.0
+train,30272,1016981,63,1.0,21.0,0.0
+validation,6486,78121,10,2.0,32.0,1.0

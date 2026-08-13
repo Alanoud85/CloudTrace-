@@ -1,0 +1,81 @@
+View,Feature
+Event/content,error_rate
+Event/content,unique_event_ratio
+Event/content,unique_service_ratio
+Event/content,action_rarity_mean
+Event/content,action_rarity_max
+Event/content,service_rarity_mean
+Event/content,service_rarity_max
+Event/content,region_rarity_mean
+Event/content,region_rarity_max
+Event/content,error_rarity_mean
+Event/content,action_prop_RunInstances
+Event/content,action_prop_AssumeRole
+Event/content,action_prop_DescribeSnapshots
+Event/content,action_prop_DescribeInstances
+Event/content,action_prop_GetBucketAcl
+Event/content,action_prop_DescribeSpotPriceHistory
+Event/content,action_prop_GetPolicyVersion
+Event/content,action_prop_GetCallerIdentity
+Event/content,action_prop_ListBuckets
+Event/content,action_prop_DescribeSnapshotAttribute
+Event/content,action_prop_ListEntitiesForPolicy
+Event/content,action_prop_CreateDefaultVpc
+Event/content,action_prop_ListFunctions202224
+Event/content,action_prop_DescribeLoadBalancers
+Event/content,action_prop_DescribeSecurityGroups
+Event/content,action_prop_DescribeVpcs
+Event/content,action_prop_ListPolicyVersions
+Event/content,action_prop_GetBucketLocation
+Event/content,action_prop_DescribeKeyPairs
+Event/content,action_prop_GetPolicy
+Event/content,action_prop_DescribeTrails
+Event/content,action_prop_CreateLogStream
+Event/content,action_prop_CreateKeyPair
+Event/content,action_prop_ListPolicies
+Event/content,action_prop_GenerateCredentialReport
+Event/content,service_prop_ec2.amazonaws.com
+Event/content,service_prop_sts.amazonaws.com
+Event/content,service_prop_s3.amazonaws.com
+Event/content,service_prop_iam.amazonaws.com
+Event/content,service_prop_rds.amazonaws.com
+Event/content,service_prop_lambda.amazonaws.com
+Event/content,service_prop_cloudtrail.amazonaws.com
+Event/content,service_prop_apigateway.amazonaws.com
+Event/content,service_prop_logs.amazonaws.com
+Event/content,service_prop_elasticloadbalancing.amazonaws.com
+Event/content,service_prop_config.amazonaws.com
+Event/content,service_prop_redshift.amazonaws.com
+Temporal/sequence,log_n_events
+Temporal/sequence,log_duration
+Temporal/sequence,events_per_min
+Temporal/sequence,gap_mean
+Temporal/sequence,gap_median
+Temporal/sequence,gap_std
+Temporal/sequence,gap_max
+Temporal/sequence,burst_ratio
+Temporal/sequence,nighttime_ratio
+Temporal/sequence,weekend_ratio
+Temporal/sequence,action_switch_rate
+Temporal/sequence,service_switch_rate
+Temporal/sequence,region_switch_rate
+Temporal/sequence,ip_switch_rate
+Temporal/sequence,ua_switch_rate
+Temporal/sequence,transition_surprise_mean
+Temporal/sequence,transition_surprise_max
+Temporal/sequence,hour_sin
+Temporal/sequence,hour_cos
+Temporal/sequence,dow_sin
+Temporal/sequence,dow_cos
+Relational/identity graph,unique_region_ratio
+Relational/identity graph,unique_ip_ratio
+Relational/identity graph,unique_ua_ratio
+Relational/identity graph,identity_ip_novel_rate
+Relational/identity graph,identity_ua_novel_rate
+Relational/identity graph,identity_region_novel_rate
+Relational/identity graph,identity_service_novel_rate
+Relational/identity graph,identity_action_novel_rate
+Relational/identity graph,ua_rarity_mean
+Relational/identity graph,ua_rarity_max
+Relational/identity graph,ip_rarity_mean
+Relational/identity graph,ip_rarity_max

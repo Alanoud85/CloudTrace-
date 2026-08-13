@@ -1,0 +1,9 @@
+Component,Specification,Value
+Input,Three session views,"Event=47, Temporal=21, Relational=12"
+View encoder,Linear–GELU–LayerNorm–Linear–LayerNorm,"hidden=96, latent=32"
+Fusion,Softmax gated weighted sum,One learned weight per view and session
+Decoders,One decoder per view,latent–hidden–original view dimension
+Training objective,Denoising reconstruction + agreement + variance guard,"mask=0.1, noise=0.03"
+Optimizer,AdamW,"lr=0.0008, weight_decay=1e-05"
+Runs,Independent random seeds,"(42, 52, 62, 72, 82)"
+Threshold,Generalized Pareto EVT,tail q=0.98; alert rate=0.005

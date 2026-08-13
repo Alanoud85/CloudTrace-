@@ -1,0 +1,24 @@
+
+PAPER-READY RESULTS SUMMARY
+=====================================================
+
+Dataset curation
+----------------
+The detailed CloudTrail table contained 1,939,207 rows. After removing 0 records with invalid timestamps and 713,423 repeated event identifiers, 1,225,784 unique events remained. Identity-conditioned 30-minute inactivity segmentation produced 43,246 sessions. Entire sessions were assigned chronologically to training, validation, and testing partitions before fitting any rarity, scaling, transition, or identity-relation statistics.
+
+Controlled anomaly benchmark
+----------------------------
+No human attack labels were used. Quantitative evaluation employed five controlled corruption families: burst, context hijack, API-sequence, failure-storm, and region/service-switch anomalies. Across 5 independent seeds, CloudTrace-MVAD obtained PR-AUC 0.8383 ± 0.0139 and ROC-AUC 0.8796 ± 0.0056. Its F1 score at the label-free EVT threshold was 0.1949 ± 0.0250. The highest mean PR-AUC among all evaluated approaches was achieved by Isolation Forest (0.8704). These values measure sensitivity to controlled anomalies and must not be described as recall on confirmed real-world attacks.
+
+Operational analysis
+--------------------
+The threshold selected for a target alert budget of 5.0 alerts per 1,000 validation sessions was 20.9662. On the chronologically later unlabelled period, the observed alert rate was 11.25 candidate alerts per 1,000 sessions. These high-scoring sessions are candidate anomalies only; malicious intent cannot be inferred without external validation.
+
+Computational profile
+---------------------
+The complete model contains 44,915 trainable parameters (approximately 0.17 MB in FP32) and requires approximately 86,592 linear-layer FLOPs per session. Measured inference throughput was 265599.4 sessions/s on cuda.
+
+Required claim discipline
+-------------------------
+Use: label-free anomaly detection, controlled anomaly sensitivity, candidate anomalies, future-period alert rate, and unseen-actor analysis.
+Avoid: confirmed attack detection, malicious/benign ground truth, real-world attack recall, or expert-validated labels.

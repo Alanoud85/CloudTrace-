@@ -1,0 +1,2 @@
+Model,Parameters,FP32_model_size_MB,Approx_linear_FLOPs_per_session,Inference_ms_per_session,Throughput_sessions_per_sec,Latency_run_p95_ms,Current_process_peak_RSS_MB,Device
+CloudTrace-MVAD (Full),44915,0.17133712768554688,86592,0.0037650691083503662,265599.37446623435,25.5440120999765,2715.38671875,cuda

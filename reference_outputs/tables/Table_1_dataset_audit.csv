@@ -1,0 +1,17 @@
+Property,Value
+Raw CSV rows,1939207
+Invalid/missing timestamps removed,0
+Duplicate eventID rows removed,713423
+Curated unique events,1225784
+Duplicate rate (%),36.789419592647924
+Sessions,43246
+Unique identities,375
+Unique source IP values,9402
+Unique user agents,8812
+Unique API actions,1242
+Unique AWS services,164
+Unique AWS regions,17
+Start time,2017-02-12 19:57:06+00:00
+End time,2020-10-07 21:03:30+00:00
+Raw dataframe memory (MB),2140.9531450271606
+Load/curation time (s),38.103292452000005
